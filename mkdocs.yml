@@ -1,7 +1,7 @@
 site_name: ZhouXinbin Wiki
 
-repo_name: zhouxinbin.github.io
-repo_url: https://github.com/zhouxinbin/zhouxinbin.github.io
+repo_name: zhouxinbin/wiki
+repo_url: https://github.com/zhouxinbin/wiki
 
 theme:
   name: material
