@@ -1,0 +1,50 @@
+site_name: ZhouXinbin Wiki
+
+repo_name: zhouxinbin.github.io
+repo_url: https://github.com/zhouxinbin/zhouxinbin.github.io
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - privacy
+  - search
+  # - social
+  - blog
+
+extra:  
+  social:
+      - icon: fontawesome/brands/github 
+        link: https://github.com/zhouxinbin
+
+nav:
+- Home: index.md
+- Blog:
+  - blog/index.md
+- Wiki:
+  - wiki/index.md
+  - wiki/root.md
+- About: about.md
