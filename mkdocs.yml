@@ -1,4 +1,4 @@
-site_name: ZhouXinbin Wiki
+site_name: ZhouXinbin's Wiki
 
 repo_name: zhouxinbin/wiki
 repo_url: https://github.com/zhouxinbin/wiki
@@ -15,12 +15,12 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-    
-  palette: 
+
+  palette:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -30,21 +30,180 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - privacy
+  # - privacy
   - search
   # - social
   - blog
 
-extra:  
+extra:
   social:
-      - icon: fontawesome/brands/github 
+      - icon: fontawesome/brands/github
         link: https://github.com/zhouxinbin
 
 nav:
-- Home: index.md
-- Blog:
-  - blog/index.md
-- Wiki:
-  - wiki/index.md
-  - wiki/root.md
-- About: about.md
+  - Home: index.md
+  - AI:
+    - ai/index.md
+    - 深度学习: ai/dl.md
+    - 机器学习: ai/machine-learning.md
+  - 算法:
+    - algo/index.md
+    - 技巧:
+      - OI 赛制技巧: algo/00技巧/OI赛制技巧.md
+      - 调试代码: algo/00技巧/调试代码.md
+      - 对拍: algo/00技巧/对拍.md
+      - 二维数组翻转: algo/00技巧/二维数组翻转.md
+      - 公共区间长度: algo/00技巧/公共区间长度.md
+      - 关于高标准的输出: algo/00技巧/关于高标准的输出.md
+      - 规律公式: algo/00技巧/规律公式.md
+    - 基础算法:
+      - 时间复杂度分析: algo/01基础算法/01-时间复杂度分析.md
+      - 排序: algo/01基础算法/02-排序.md
+      - 二分: algo/01基础算法/03-二分.md
+      - 前缀和与差分: algo/01基础算法/04-前缀和与差分.md
+      - 位运算: algo/01基础算法/05-位运算.md
+      - 双指针: algo/01基础算法/06-双指针.md
+      - 离散化: algo/01基础算法/07-离散化.md
+      - 区间合并: algo/01基础算法/08-区间合并.md
+      - IO: algo/01基础算法/09-IO.md
+      - 多路归并: algo/01基础算法/10-多路归并.md
+      - 递推: algo/01基础算法/11-递推.md
+      - 日期问题: algo/01基础算法/12-日期问题.md
+      - 枚举: algo/01基础算法/13-枚举.md
+    - 数据结构:
+      - 绪论: algo/02数据结构/00绪论.md
+      - 单链表: algo/02数据结构/01单链表.md
+      - 双链表: algo/02数据结构/02双链表.md
+      - 栈: algo/02数据结构/03栈.md
+      - 队列: algo/02数据结构/04队列.md
+      - 单调栈: algo/02数据结构/05单调栈.md
+      - 单调队列: algo/02数据结构/06单调队列.md
+      - KMP: algo/02数据结构/07KMP.md
+      - Trie 字典树: algo/02数据结构/08tire字典树.md
+      - 并查集: algo/02数据结构/09并查集.md
+      - 堆: algo/02数据结构/10堆.md
+      - 哈希表: algo/02数据结构/11哈希表.md
+      - 满二叉树和完全二叉树: algo/02数据结构/12满二叉树和完全二叉树.md
+      - 字符串: algo/02数据结构/13字符串.md
+      - STL: algo/02数据结构/14STL.md
+      - 树状数组: algo/02数据结构/15树状数组.md
+      - 线段树: algo/02数据结构/16线段树.md
+    - 搜索与图论:
+      - DFS: algo/03搜索图论/01DFS.md
+      - BFS: algo/03搜索图论/02BFS.md
+      - 树和图的存储: algo/03搜索图论/03树和图的存储.md
+      - 树的深度优先遍历: algo/03搜索图论/04树的深度优先遍历.md
+      - 树的宽度优先遍历: algo/03搜索图论/05树的宽度优先遍历.md
+      - 拓扑排序: algo/03搜索图论/06拓扑排序.md
+      - 最短路: algo/03搜索图论/07最短路.md
+      - 最小生成树: algo/03搜索图论/08最小生成树.md
+      - 二分图: algo/03搜索图论/09二分图.md
+    - 数学知识:
+      - 质数: algo/04数学知识/01质数.md
+      - 约数: algo/04数学知识/02约数.md
+      - 欧拉函数: algo/04数学知识/03欧拉函数.md
+      - 高精度: algo/04数学知识/04高精度.md
+      - 高斯消元: algo/04数学知识/07高斯消元.md
+      - 求组合数: algo/04数学知识/08求组合数.md
+      - 容斥原理: algo/04数学知识/10容斥原理.md
+      - 简单博弈论: algo/04数学知识/11简单博弈论.md
+      - 算数基本定理: algo/04数学知识/12算数基本定理.md
+    - 动态规划:
+      - 背包 DP: algo/05动态规划/01背包DP.md
+      - 线性 DP: algo/05动态规划/02线性DP.md
+      - 区间 DP: algo/05动态规划/03区间DP.md
+      - 计数类 DP: algo/05动态规划/04计数类DP.md
+      - 数位统计 DP: algo/05动态规划/05数位统计DP.md
+      - 状态压缩 DP: algo/05动态规划/06状态压缩DP.md
+      - 树形 DP: algo/05动态规划/07树形DP.md
+      - 记忆化搜索: algo/05动态规划/08记忆化搜索.md
+    - 贪心算法:
+      - 区间问题: algo/06贪心算法/01区间问题.md
+      - Huffman 树: algo/06贪心算法/02Huffman树.md
+      - 排序不等式: algo/06贪心算法/03排序不等式.md
+      - 绝对值不等式: algo/06贪心算法/04绝对值不等式.md
+      - 推公式: algo/06贪心算法/05推公式.md
+    - C++:
+      - string: algo/cpp/string.md
+      - 结构体: algo/cpp/结构体.md
+      - 零散: algo/cpp/零散.md
+  - 计算机基础:
+    - cs/index.md
+    - CSAPP 前言: cs/csapp/Untitled.md
+    - CSAPP: cs/csapp/02信息的表示和处理.md
+    - 数据库 MySQL: cs/db/MySQL.md
+    - 计算机网络: cs/net/net.md
+    - 操作系统 Linux: cs/os/Linux.md
+  - Java:
+    - java/index.md
+    - Java 基础: java/JavaPre.md
+    - Java SE: java/JavaSe.md
+    - Java Web: java/JavaWeb.md
+    - JDBC: java/JDBC.md
+    - JUnit: java/JUnit.md
+    - JVM: java/JVM.md
+    - Lombok: java/Lombok.md
+    - Swing: java/Swing.md
+  - 工具:
+    - tools/index.md
+    - Docker: tools/Docker.md
+    - Git: tools/Git.md
+    - Git Commit 书写规范: tools/Git Commit 书写规范.md
+    - IDEA: tools/IDEA.md
+    - Sublime: tools/Sublime.md
+    - VSCode: tools/VSCode.md
+    - WSL: tools/WSL.md
+    - ZSH: tools/ZSH.md
+  - 杂项:
+    - misc/index.md
+    - 车: misc/车.md
+    - 钓鱼: misc/钓鱼.md
+    - 客制化键盘: misc/客制化键盘.md
+    - MarkDown: misc/MarkDown.md
+    - PicGo: misc/PicGo.md
+    - ToDo 代理环境: misc/ToDo代理环境.md
+    - VPN: misc/VPN.md
+    - 黑群晖折腾日记: misc/2024-11-05_黑群晖折腾日记.md
+    - MacBook Air M4 降级: misc/2026-03-12_MacBook Air M4 降级.md
+  - 学校课程:
+    - school/index.md
+    - 英语:
+      - school/english/index.md
+      - CET6: school/english/CET6.md
+      - Exercise: school/english/Exercise.md
+      - 读写译 2: school/english/读写译2.md
+      - 高级英语: school/english/高级英语.md
+    - 专业课:
+      - school/major/index.md
+      - COA: school/major/coa.md
+      - CPP: school/major/CPP.md
+      - OS 笔记: school/major/OS笔记.md
+      - 计算机图形学: school/major/计算机图形学.md
+      - 计网: school/major/计网.md
+      - 离散: school/major/离散.md
+      - 嵌入式: school/major/嵌入式.md
+      - 软件测试笔记: school/major/软件测试笔记.md
+      - 软件工程: school/major/软件工程.md
+      - 软件工程经济学: school/major/软件工程经济学.md
+      - 软件工程综合实践: school/major/软件工程综合实践.md
+      - 软件过程管理: school/major/软件过程管理.md
+      - 软件系统分析与设计: school/major/软件系统分析与设计.md
+      - 软件详细设计: school/major/软件详细设计.md
+      - 数据结构与算法: school/major/数据结构与算法.md
+      - 数据库: school/major/数据库.md
+      - 算法与设计实现: school/major/算法与设计实现.md
+      - 云计算: school/major/云计算.md
+      - 云计算选择: school/major/云计算选择.md
+    - 数学:
+      - school/math/index.md
+      - 概率统计: school/math/概率统计.md
+      - 线性代数: school/math/线性代数.md
+    - 其他:
+      - school/other/index.md
+      - 马克思主义基本原理: school/other/马克思主义基本原理.md
+      - 马原选择题及答案: school/other/马原选择题及答案.md
+      - 毛概: school/other/毛概.md
+      - 日语: school/other/日语.md
+  - Blog:
+    - blog/index.md
+  - About: about.md
